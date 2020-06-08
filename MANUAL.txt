@@ -1,0 +1,37 @@
+Start:
+- In order to run this application first we open the app folder in ChatApplication/app. This folder contains 2 .jar files and 1 "login.json" file.
+- Now we run the Server.jar file to start server.
+- Then run the Login.jar file. At the IP window we copy the IP server in the IP window and paste (For example:192.168.0.12).
+- After entering IP, the login window will appear. User can choose either login or register.
+(for new user just open the Login.jar again). 
+
+Login:
+- If the username and pass are correct then you will be directed to the chat UI screen.
+- Some initial accounts: (username: dung, pass:123)
+			 (username: phong, pass:123)
+			 (username: dung123, pass:123)
+
+Register:
+- In order to register, type in username and 2 password bars (the 2 password need to be the same).
+- If register success, you will be direct to chat UI screen.
+- After register, user can log in with the same account next time reenter the system.
+
+Chat all:
+- Initially, the chat UI will first show the Server chat pannel which will send the message you enter to all user connecting to server.
+- This chat mode can be access by click on the "Server" in the list in chat UI.
+
+Chat one-to-one:
+- To chat with one person, click on the username of that person on the list and the system will create a peer to peer connection between you and that person.
+
+Group chat:
+- To create a group chat first choose the "Create Group" button in the chat UI. A choose member screen will open.
+- Choose >2 people and enter name to create group.
+- After your confirm, everyone in the group will see the group name on the user list, by clicking it will start the group chat.
+
+Private chat:
+- If you start your message with @username: then your message will only be sent to the username list after @
+- More than 1 person can receive at a time by using ",".
+- For example: @dung,phong: Hello will only display the message to user dung and phong.
+
+Exit:
+- Click "Exit" button on the top right cornor will log out the user and close connections.
